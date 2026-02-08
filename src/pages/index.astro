@@ -1,0 +1,89 @@
+---
+import Header from "../components/Header.astro";
+import Sidebar from "../components/Sidebar.astro";
+---
+
+
+<!DOCTYPE html>
+<html
+>
+  <Header title="About me" />
+  <body>
+    <div class="content">
+      <Sidebar selectedItem="home" />
+      <nav class="main">
+        <div class="container">
+          <main class="fold-content-container">
+            <div class="fold-content">
+              <h1>Hi, I'm Luka.<br />I build things for world and me.</h1>
+              <p class="lead">
+                Experienced backend developer and cloud architect. A proactive team member dedicated to continuous learning, problem-solving, and aiding teammates in achieving quicker outcomes.
+              </p>
+            </div>
+            <a href="https://t.me/ERR_4O4" class="button w-button">Contact</a>
+          </main>
+          <div class="projects-section">
+            <!-- Software Development -->
+            <a href="/software-development" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container">
+                  <img src="./assets/browser.svg" loading="lazy" alt="" class="projects-category-image" />
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>Software Development</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Technologies &amp; tools</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">Go</div>
+                    <div class="single-chip small-chip">Rust</div>
+                    <div class="single-chip small-chip">Zig</div>
+                    <div class="single-chip small-chip">PostgreSql</div>
+                    <div class="single-chip small-chip">C</div>
+                    <div class="single-chip small-chip">RabbitMQ</div>
+                    <div class="single-chip small-chip">Elixir</div>
+                    <div class="single-chip small-chip">Haskell</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- DevOps & Cloud -->
+            <a href="/devops" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container devops-img">
+                  <img src="./assets/database.svg" loading="lazy" alt="" class="projects-category-image" />
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>DevOps &amp;&nbsp;Cloud</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Technologies &amp; tools</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">Docker</div>
+                    <div class="single-chip small-chip">Docker Compose</div>
+                    <div class="single-chip small-chip">Kubernetes</div>
+                    <div class="single-chip small-chip">Terraform</div>
+                    <div class="single-chip small-chip">ArgoCD</div>
+                    <div class="single-chip small-chip">Git</div>
+                    <div class="single-chip small-chip">GitLab CI/CD</div>
+                    <div class="single-chip small-chip">Github Actions</div>
+                    <div class="single-chip small-chip">Traefik</div>
+                    <div class="single-chip small-chip">Nginx</div>
+                    <div class="single-chip small-chip">RabbitMQ</div>
+                    <div class="single-chip small-chip">NixOs</div>
+                    <div class="single-chip small-chip">Ansible</div>
+                    <div class="single-chip small-chip">Bash</div>
+                    <div class="single-chip small-chip">Grafana</div>
+                    <div class="single-chip small-chip">Prometheus</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  </body>
+</html>

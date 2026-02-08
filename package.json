@@ -1,0 +1,19 @@
+{
+  "name": "about",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "deploy": "bun gh-pages -d dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.1.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

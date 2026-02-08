@@ -1,0 +1,77 @@
+---
+import Header from "../components/Header.astro";
+import Sidebar from "../components/Sidebar.astro";
+---
+
+<!DOCTYPE html>
+<html>
+  <Header title="Info | Luka Puhlyak" />
+  <body>
+    <div class="content">
+      <Sidebar selectedItem="info" />
+
+      <nav class="main">
+        <div class="container">
+          <div class="back-nav-container">
+            <a href="/" class="back-nav-button w-inline-block">
+              <img src="/assets/back.svg" loading="lazy" alt="" class="back-nav-img" />
+              <div>Back</div>
+            </a>
+          </div>
+
+          <div class="content-container">
+            <h1>Info</h1>
+
+            <section class="items-container">
+              <div class="resouce-items">
+
+                <!-- Education -->
+                <div class="single-item">
+                  <h3>Education</h3>
+
+                  <div class="project-desc project-desc-list w-richtext">
+                    <ul>
+                      <li>First-year student at NUST MISIS</li>
+                      <li>Building reliable and scalable services</li>
+                      <li>Interested in cloud infrastructure & DevOps culture</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Links -->
+                <div class="single-item">
+                  <h3>Links</h3>
+
+                  <div class="project-desc project-desc-list w-richtext">
+                    <ul>
+                      <li>
+                        GitHub:
+                        <a href="https://github.com/Akulalu07" target="_blank">
+                          github.com/Akulalu07
+                        </a>
+                      </li>
+                      <li>
+                        GitLab:
+                        <a href="https://gitlab.com/Akulalu07" target="_blank">
+                          gitlab.com/Akulalu07
+                        </a>
+                      </li>
+                      <li>
+                        Codeberg:
+                        <a href="https://codeberg.org/ERR418" target="_blank">
+                          codeberg.org/ERR418
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
